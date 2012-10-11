@@ -7,7 +7,7 @@ $ rvm gemset create sandbox
 $ rvm gemset use sandbox
 $ gem install rake
 
-$ gem install rspec --no-ri --no-doc
+$ rake install_gem install_listed_gem
 
 # try scripts
 ```
